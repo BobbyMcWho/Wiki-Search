@@ -1,0 +1,108 @@
+body {
+    background-color: #607D8B;
+    color:#ECEFF1;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    margin-top:25vh;
+    transition: margin-top 1s
+}
+.containerUp {
+  margin-top:10vh;
+}
+.rounded{
+  color:#ECEFF1;
+  width:0;
+  transition: width 1s;
+  background: transparent;
+  border:none;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+.rounded:focus {
+  outline: none;
+  border-bottom: 2px solid #ECEFF1;
+}
+.rounded-focus {
+  width: 70%;
+  border-bottom: 2px solid #ECEFF1;
+  transition: width 1s;
+}
+i {
+font-size:2em;
+  color:#ECEFF1;
+
+}
+@media only screen and (min-width: 768px){
+  .rounded{
+    font-size: 3em;
+  }
+  .rounded-focus {
+    width: 25vw;
+    font-size: 3em;
+}
+.deskHide{
+  display: none;
+}
+i {
+font-size:3em;
+}
+}
+i:hover {
+  cursor: pointer;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+.glyphicon-remove  {
+  display: none;
+}
+.son{
+  background-color: #ECEFF1;
+  color: #37474F;
+  padding: 1em .5em 1em .5em;
+  margin: 1em 0 1em 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.son:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.son .cardHead{
+padding: 0;
+margin: 0;
+color:#BF360C;
+font-weight: 700;
+}
+.son p {
+  padding: 0;
+  margin:0;
+}
+.footer{
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom:20px;
+}
+.footer a{
+  color: #8BC34A;
+  font-weight: 700;
+}
+.footer a:hover{
+  color: #FF5722;
+  font-weight: 700;
+  text-decoration: none;
+
+}
+.footer a:focus{
+  text-decoration: none;
+}
+
+.card:active, .card:visited, .card:hover,.card{
+  text-decoration: none;
+  color: #FF5722;
+}
+.deskHide {
+  margin-top:-15px;
+  font-family: 'Raleway', sans-serif;
+}
